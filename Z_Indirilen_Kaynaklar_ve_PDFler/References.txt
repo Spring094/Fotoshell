@@ -1,0 +1,12 @@
+FOTOSHELL PROJESI - ILK LITERATUR REFERANSLARI
+==================================================
+- `Theoretical study of the enhancement of the photoconversion eficiency on zinc porphyrin dyes by combining electron donor-acceptor theory with the Barrera-Crivelli-Loeb (BCL) model. (2025), DOI: 10.1007/s00894-025-06591-6
+- Tandem dye-sensitized solar cells achieve 12.89% efficiency using novel organic sensitizers. (2024), DOI: 10.1038/s41598-024-75959-0
+- Molecular Engineering of Photosensitizers for Solid-State Dye-Sensitized Solar Cells: Recent Developments and Perspectives. (2023), DOI: 10.1002/open.202300170
+- DFT and TD-DFT calculations to estimate the photovoltaic parameters of some metal-free dyes based on triphenylamine: the influence of inserting an auxiliary electron-withdrawing group on DSSC's performance. (2025), DOI: 10.1039/d5ra04785d
+- Self-Assembled Monolayers of Push-Pull Chromophores as Active Layers and Their Applications. (2024), DOI: 10.3390/molecules29030559
+- CuAAC-inspired synthesis of 1,2,3-triazole-bridged porphyrin conjugates: an overview. (2023), DOI: 10.3762/bjoc.19.29
+- The V-Shaped Hamilton Receptors: A Paradigmatic Multipurpose Scaffold. (2026), DOI: 10.1002/open.202500120
+- Photovoltaic performance and power conversion efficiency prediction of double fence porphyrins. (2021), DOI: 10.1039/d1cp03593b
+- Enhancing the Photoelectric Properties of Zinc Porphyrin Dyes by Introducing Five-Membered Heterocyclic Rings into the Electron Donor: A Density Functional Theory and Time-Dependent Density Functional Theory Study. (2021), DOI: 10.1021/acsomega.1c03635
+- Effect of regio-specific arylamine substitution on novel π-extended zinc salophen complexes: density functional and time-dependent density functional study on DSSC applications. (2023), DOI: 10.1039/d2ra07571g
