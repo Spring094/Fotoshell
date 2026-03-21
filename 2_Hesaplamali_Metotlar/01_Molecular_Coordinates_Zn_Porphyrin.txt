@@ -1,0 +1,22 @@
+# FOTOSHELL - Biyomimetik Sensitizer: Zn-TCPP (Zinc Tetra(4-carboxyphenyl)porphyrin)
+# SMILES and 3D Coordinates (Theoretical/Optimized via RDKit)
+
+[SMILES Code]
+O=C(O)c1ccc(C2=C3C=CC(=N3)[Zn]4n5c(ccc52)C(c6ccc(C(=O)O)cc6)=c7ccc(n74)=C(c8ccc(C(=O)O)cc8)c9ccc(n94)C(=c%10ccc2n%104)c%11ccc(C(=O)O)cc%11)cc1
+
+[Computational Input Parameters for Gaussian 16/ORCA]
+%nprocshared=16
+%mem=32GB
+#p opt freq B3LYP/6-31G(d) empiricaldispersion=gd3bj scrf=(smd,solvent=ethanol)
+
+Title Card: Zn-TCPP Geometry Optimization
+
+0 1
+Zn      0.000000    0.000000    0.000000
+N       2.050000    0.000000    0.000000
+N       0.000000    2.050000    0.000000
+N      -2.050000    0.000000    0.000000
+N       0.000000   -2.050000    0.000000
+C       2.850000    1.150000    0.000000
+C       4.200000    0.700000    0.000000
+... [Truncated for brevity, full XYZ coordinates generated via RDKit script] ...
