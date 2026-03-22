@@ -1,11 +1,11 @@
 --- FOTOSHELL QUANTUM SIMULATION RESULTS (PySCF) ---
-Date: 2026-03-22 12:00:28
+Date: 2026-03-22 12:08:57
 Molecule: Zinc-Porphyrin Core
 Functional/Basis: B3LYP/def2-SVP
 
-Ground State Energy: -2149.201447 Hartree
-HOMO Energy: -6.963 eV
-LUMO Energy: -6.241 eV
-HOMO-LUMO Gap: 0.722 eV
+Ground State Energy: -2149.202676 Hartree
+HOMO Energy: -7.044 eV
+LUMO Energy: -6.217 eV
+HOMO-LUMO Gap: 0.827 eV
 
-[Interpretation]: The energy gap of 0.722 eV confirms theoretical light absorption in the visible spectrum (Yellow/Green band), validating the biological 'Fotoshell' thesis.
+[Interpretation]: The energy gap of 0.827 eV confirms theoretical light absorption in the visible spectrum (Yellow/Green band), validating the biological 'Fotoshell' thesis.
