@@ -1,0 +1,40 @@
+name: Autonomous Quantum Chemistry Simulation (Fotoshell)
+
+on:
+  push:
+    branches:
+      - master
+      - main
+  workflow_dispatch:
+
+jobs:
+  run-dft-simulation:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v3
+
+    - name: Set up Python 3.10
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+
+    - name: Install Quantum Chemistry Dependencies (PySCF)
+      run: |
+        python -m pip install --upgrade pip
+        pip install pyscf numpy matplotlib
+
+    - name: Run DFT Simulation for Zn-Porphyrin (Fotoshell Harvester)
+      run: |
+        python 2_Hesaplamali_Metotlar/run_dft_simulation.py
+
+    - name: Commit and Push Simulation Results (Autonomous)
+      run: |
+        git config --local user.email "amber-bot@openclaw.ai"
+        git config --local user.name "Amber (Autonomous CI/CD Lab)"
+        git add 3_Veri_ve_Grafikler/
+        git commit -m "autogen: Kuantum Simulasyonu (DFT) sonuclari ve HOMO-LUMO grafikleri eklendi" || echo "No changes to commit"
+        git push
